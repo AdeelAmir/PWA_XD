@@ -1,0 +1,35 @@
+body{
+  background-color: #002846;
+}
+
+.white_clr{
+  color: white;
+}
+
+.golden_clr{
+  color: #dca450;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: -95px;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: left !important;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.textStyle{
+  font-family: PT Serif Caption;
+  font-size: 40;
+}
+
+a:hover {
+  color: white;
+}

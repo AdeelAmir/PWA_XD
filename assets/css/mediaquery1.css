@@ -1,0 +1,21 @@
+@media (min-width: 768px){
+  .privacy_image{
+    margin-top:80px;
+    cursor: pointer;
+  }
+
+  .navigationbar{
+    padding-bottom: 100px !important;
+  }
+}
+
+/*mobile*/
+@media (max-width:768px){
+  .privacy_image{
+    margin-top:250px;
+    cursor: pointer;
+  }
+  .navigationbar{
+    padding-bottom: 40px !important;
+  }
+}
