@@ -80,15 +80,19 @@
                 <div class="tab-pane container active" id="tab1">
                   <h5 class="white_clr text-center" style="margin-top:30px;">Scan the front side</h5>
                   <center>
-                  <div style="width:320px;height:320px;margin-top:30px; background-image: url('assets/images/scanner_frame.png')">
-                    <center><video id="passportvideo" width="270" height="270" style="margin-top:20px;" autoplay></video></center>
+                  <!-- <div style="width: 400px;height:200px;margin-top:30px; background-image: url('assets/images/scanner_frame.png'); background-repeat: no-repeat;"> -->
+                  <div>
+                    <img src="assets/images/scanner_frame.png" class="img-fluid scanner_frame" alt="img" />
+                    <center><video id="passportvideo" width="270" height="270" style="margin-top:20px;z-index:999;" autoplay></video></center>
                   </div>
                   </center>
                 </div>
                 <div class="tab-pane container" id="tab2">
                   <h5 class="white_clr text-center" style="margin-top:30px;">Scan the front side</h5>
                   <center>
-                  <div style="width:320px;height:320px;margin-top:30px; background-image: url('assets/images/scanner_frame.png')">
+                  <!-- <div style="width:320px;height:320px;margin-top:30px; background-image: url('assets/images/scanner_frame.png')"> -->
+                  <div>
+                    <img src="assets/images/scanner_frame.png" class="img-fluid scanner_frame" alt="img" />
                     <center><video id="idcardvideo" width="270" height="270" style="margin-top:20px;" autoplay></video></center>
                   </div>
                   </center>
@@ -96,7 +100,9 @@
                 <div class="tab-pane container" id="tab3">
                     <h5 class="white_clr text-center" style="margin-top:30px;">Scan the front side</h5>
                     <center>
-                    <div style="width:320px;height:320px;margin-top:30px; background-image: url('assets/images/scanner_frame.png')">
+                    <!-- <div style="width:320px;height:320px;margin-top:30px; background-image: url('assets/images/scanner_frame.png')"> -->
+                    <div>
+                      <img src="assets/images/scanner_frame.png" class="img-fluid scanner_frame" alt="img" />
                       <center><video id="driverlicensevideo" width="270" height="270" style="margin-top:20px;" autoplay></video></center>
                     </div>
                     </center>
