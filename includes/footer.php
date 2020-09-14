@@ -5,3 +5,4 @@
 <script src="assets/js/owl.carousel.js"></script>
 <script src="assets/js/side_drawer.js"></script>
 <script src="assets/js/qrcode.js"></script>
+<script src="assets/js/jquery.ioslist.js"></script>

@@ -3,9 +3,76 @@
     margin-top:80px;
     cursor: pointer;
   }
-
   .navigationbar{
     padding-bottom: 100px !important;
+  }
+  .scanimage{
+    margin-left:40px;
+    margin-top: 10px;
+  }
+  .tableSetting{
+    margin-left:190px;
+  }
+  .scanHistoryDetails{
+    margin-left:40px;
+    font-size:18px;
+  }
+  .data_group1text{
+    margin-left: 50px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .item1{
+    cursor: pointer;
+    padding-top:100px;
+    width:100% !important;
+  }
+  .item3{
+    cursor: pointer;
+    padding-top:100px;
+    width:100% !important;
+  }
+  .feedback_upload_icon{
+    margin-left: 65px;
+  }
+}
+
+@media (min-width: 900px){
+  .privacy_image{
+    margin-top:80px;
+    cursor: pointer;
+  }
+  .navigationbar{
+    padding-bottom: 100px !important;
+  }
+  .scanimage{
+    margin-left:40px;
+    margin-top: 10px;
+  }
+  .tableSetting{
+    margin-left:570px;
+  }
+  .scanHistoryDetails{
+    margin-left:40px;
+    font-size:18px;
+  }
+  .data_group1text{
+    margin-left: 50px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .item1{
+    cursor: pointer;
+    padding-top:100px;
+    width:100% !important;
+  }
+  .item3{
+    cursor: pointer;
+    padding-top:100px;
+    width:100% !important;
+  }
+  .feedback_upload_icon{
+    margin-left: 65px;
   }
 }
 
@@ -18,4 +85,115 @@
   .navigationbar{
     padding-bottom: 40px !important;
   }
+  .scanimage{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .tableSetting{
+
+  }
+  .scanHistoryDetails{
+    margin-left: 20px;font-size:18px;
+    margin-top: 20px;
+  }
+  .data_group1text{
+    margin-left: 50px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .item1{
+    cursor: pointer;
+    padding-top:100px;
+    width:80% !important;
+    margin-left:35px;
+  }
+  .item3{
+    cursor: pointer;
+    padding-top:100px;
+    width:80% !important;
+    margin-left:35px;
+  }
+}
+
+/*Bottom Bar CSS*/
+#mobile-bottom-bar {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.priceCalculatorData2 {
+    border: 1px solid #193D59 !important;
+    padding: 10px 20px 10px 20px;
+    background-color: #193D59;
+    color: white;
+}
+
+.title {
+    font: normal 400 16px/26px Helvetica, sans-serif;
+    font-size: 11px !important;
+    font-weight: 500;
+    color: #D1D1D1;
+}
+
+.title2 {
+    font: normal 400 16px/26px Helvetica, sans-serif;
+    font-size: 13px !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+
+#contactsPage {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1050;
+    background-color: #ffffff;
+}
+
+/*Bottom Navigation Code*/
+.priceCalculatorData3 {
+    border: 1px solid #96A6B2 !important;
+    padding: 0 20px 0 20px;
+    background-color: #96A6B2;
+    color: white;
+    font-size: 14px !important;
+}
+
+.bottom-nav-active{
+    color: #FAAB00 !important;
+}
+
+/*Plugin CSS Modifications*/
+.ioslist-fake-header {
+    width: 100% !important;
+}
+
+.ioslist-group-header {
+    width: 100% !important;
+}
+
+.ioslist-group-header, .ioslist-fake-header {
+    background: #E4E4E4 !important;
+    border-bottom: 1px solid #E4E4E4 !important;
+    border-top: 1px solid #E4E4E4 !important;
+    color: #FAAB00 !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    padding: 5px 0 5px 12px !important;
+}
+
+.ioslist-group-header, .ioslist-fake-header {
+    background: #E4E4E4 !important;
+    border-bottom: 1px solid #E4E4E4 !important;
+    border-top: 1px solid #E4E4E4 !important;
+    color: #FAAB00 !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    padding: 5px 0 5px 12px !important;
 }

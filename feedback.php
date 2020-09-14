@@ -5,6 +5,9 @@
     <title>Scanner</title>
     <?php require_once("includes/header.php") ?>
     <style>
+    .mt-5, .my-5 {
+      margin-top: 1rem !important;
+    }
     .form-control {
     display: block;
     width: 100%;
@@ -93,54 +96,54 @@
       }
     </style>
   </head>
-  <body>
-    <div class="container">
-      <div class="row privacy_row">
-        <div class="col-md-12">
-          <div class="mt-3">
-            <h5 class="white_clr text-center" style="margin-left:40px;">Feedback<span class="float-right" style="font-size:14px;margin-top:6px;cursor:pointer;">Close</span></h5>
-          </div>
-          <div class="" style="margin-top: 250px;">
+  <body style="background-color: #E5E5E5">
+
+    <nav class="navbar navbar-light" style="background-color: #002746;padding:5px;">
+      <span class="mb-0 white_clr" style="color: #fffff;font-size:13px;padding-left:12px;cursor:pointer;"></span>
+      <p style="color:#fffff;font-size:18px;margin-top:10px;" class="text-center white_clr">Feedback</p>
+      <span class="mb-0 white_clr" style="color: #fffff;font-size:13px;padding-right:12px;">Close</span>
+    </nav>
+
+    <main class="container my-5">
+        <div class="row">
+          <div class="col-md-12" style="background-color: white; padding-top: 8px;padding-bottom: 8px; margin-top: 240px;">
             <form action="">
               <div class="row">
                   <div class="col-md-1" style="width:5%">
-                    <img src="assets/images/upload_icon.png" style="margin-top:0.6em;cursor:pointer;" />
+                    <img src="assets/images/upload_icon.png" class="feedback_upload_icon" style="margin-top:0.6em;cursor:pointer;" />
                   </div>
-                  <div class="col-md-10" style="width:80%">
+                  <div class="col-md-10" style="width:78%">
                     <input type="text" class="form-control" value="" placeholder="" style="border-radius: 18px;">
                   </div>
                   <div class="col-md-1" style="width:10%">
-                    <button type="button" class="btn white_clr" data-toggle="modal" data-target="#exampleModal" style="margin-left: -1.9em;">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal" style="margin-left: -1.9em; color: #BFBFBF;">
                       Send
                     </button>
                   </div>
               </div>
             </form>
           </div>
-          <div class="text-center" style="margin-top:5em;margin-bottom:3em;">
-
           </div>
-        </div>
-      </div>
-      <!-- Model Window -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body text-center">
-            <div class="message">
-               <strong>Thank you!</strong>
-               <br>
-               We will get back to you<br>as soon as possible.
+          <!-- Model Window -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body text-center">
+                <div class="message">
+                   <strong>Thank you!</strong>
+                   <br>
+                   We will get back to you<br>as soon as possible.
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal" style="color:blue;">Done</button>
+              </div>
             </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn" data-dismiss="modal" style="color:blue;">Done</button>
-          </div>
         </div>
-      </div>
-    </div>
-    <!-- End of Model Window -->
-    </div>
+        <!-- End of Model Window -->
+        </div>
+    </main>
     <?php require_once('includes/footer.php'); ?>
     <script>
     $(document).ready(function(){

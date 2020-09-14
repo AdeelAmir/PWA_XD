@@ -8,7 +8,6 @@
   <body>
     <div class="container">
       <div class="row" style="margin-bottom:30px;">
-        <!-- <div class="col-md-2"></div> -->
         <div class="col-md-12">
           <div class="owl-carousel owl-theme" id="slider1">
             <!-- Start of item 1 -->
@@ -18,11 +17,11 @@
                 <span class="float-right white_clr"><i class="fa fa-close" style="font-size:25px;"></i></span>
               </div>
               <div style="margin-top:130px;cursor: pointer;" class="text-center">
-                <img src="assets/images/1_image.png" style="cursor: pointer;" class="img-fluid" />
+                <img src="assets/images/1_image.png" class="img-fluid item1" />
               </div>
               <div class="">
                 <h5 class="white_clr mt-5">Select Document & Country</h5>
-                <div style="width:300px;height:2px;background-color:white"></div>
+                <div style="width:320px;height:2px;background-color:white"></div>
                 <div>
                   <p class="white_clr mt-3">
                     Before scanning, choose the document type and then select the country of the guest who are checking in
@@ -38,11 +37,11 @@
                 <span class="float-right white_clr"><i class="fa fa-close" style="font-size:25px;"></i></span>
               </div>
               <div style="margin-top:130px;cursor: pointer;" class="text-center">
-                <img src="assets/images/2_image.png" style="cursor: pointer;" class="img-fluid" />
+                <img src="assets/images/2_image.png" style="cursor: pointer;padding-top:100px;width:80%;padding-left:80px;" class="img-fluid" />
               </div>
               <div class="">
                 <h5 class="white_clr mt-5">Scan Identity Document</h5>
-                <div style="width:300px;height:2px;background-color:white"></div>
+                <div style="width:320px;height:2px;background-color:white"></div>
                 <div>
                   <p class="white_clr mt-3">
                     Put your ID inside the frame and follow on screen instructions. Data will be captured quick and accurate. Add more guests or proceed to the next step.
@@ -58,11 +57,11 @@
                 <span class="float-right white_clr"><i class="fa fa-close" style="font-size:25px;"></i></span>
               </div>
               <div style="margin-top:130px;cursor: pointer;" class="text-center">
-                <img src="assets/images/3_image.png" style="cursor: pointer;" class="img-fluid" />
+                <img src="assets/images/3_image.png" class="img-fluid item3" />
               </div>
               <div class="">
                 <h5 class="white_clr mt-5">Shared Extracted Data</h5>
-                <div style="width:300px;height:2px;background-color:white"></div>
+                <div style="width:320px;height:2px;background-color:white"></div>
                 <div>
                   <p class="white_clr mt-3">
                     Instantly share your results to your personal management software or save them temporarily to your scan history.
